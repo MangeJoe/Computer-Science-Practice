@@ -36,7 +36,7 @@ public class Graph {
 		for(int i=0;i<Nodes;i++) {
 			sb.append(i +" --> ");
 			for(int c=0;c<al[i].size();c++) {
-				sb.append(al[i].get(c)+ " -->");
+				sb.append(al[i].get(c)+ " ");
 				
 			}
 			sb.append('\n');
